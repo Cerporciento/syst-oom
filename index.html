@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SYSTOOM LLC | DeFi Research & Intelligence</title>
+  <meta name="description" content="SYSTOOM LLC is a research firm specialized in decentralized finance (DeFi) protocols, producing technical analysis and executing social media campaigns based on on-chain intelligence." />
+  <meta name="author" content="SYSTOOM LLC" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SYSTOOM LLC | DeFi Research & Intelligence" />
+  <meta property="og:description" content="DeFi protocol research and data-driven social media campaigns based on on-chain intelligence." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SYSTOOM LLC | DeFi Research & Intelligence" />
+  <meta name="twitter:description" content="DeFi protocol research and data-driven social media campaigns based on on-chain intelligence." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            dark: { 950: '#020617' }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    .gradient-text {
+      background: linear-gradient(135deg, #22d3ee, #6366f1, #a855f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card {
+      background: rgba(30, 41, 59, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(12px);
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body class="bg-dark-950 text-gray-100 font-sans antialiased">
+
+  <!-- NAV -->
+  <nav class="fixed top-0 w-full z-50 bg-dark-950/80 backdrop-blur-xl border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="text-lg font-bold text-white">
+          <span class="text-cyan-400">SYS</span>TOOM LLC
+        </a>
+
+        <div class="hidden sm:flex space-x-6 text-sm text-gray-400">
+          <a href="#about" class="hover:text-white transition">About</a>
+          <a href="#research" class="hover:text-white transition">Research</a>
+          <a href="#campaigns" class="hover:text-white transition">Campaigns</a>
+          <a href="#contact" class="hover:text-white transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <div class="absolute inset-0">
+      <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="relative max-w-5xl mx-auto px-4 text-center">
+      <p class="text-sm font-medium text-cyan-400 tracking-widest uppercase mb-6">
+        DeFi Research & Social Intelligence
+      </p>
+
+      <h1 class="text-5xl sm:text-7xl lg:text-8xl font-black leading-tight mb-8">
+        Intelligence for the
+        <span class="gradient-text">DeFi Economy</span>
+      </h1>
+
+      <p class="text-xl sm:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
+        SYSTOOM LLC analyzes decentralized finance protocols and transforms research into high-signal, data-driven social media campaigns.
+      </p>
+
+      <!-- Key metrics -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+        <div class="card rounded-2xl p-6">
+          <p class="text-3xl sm:text-4xl font-black text-cyan-400">DeFi</p>
+          <p class="text-xs text-gray-400 mt-2">Protocol Deep Dives</p>
+          <p class="text-[10px] text-gray-600 mt-1">Smart contracts • tokenomics • governance</p>
+        </div>
+
+        <div class="card rounded-2xl p-6">
+          <p class="text-3xl sm:text-4xl font-black text-indigo-400">On-Chain</p>
+          <p class="text-xs text-gray-400 mt-2">Data Intelligence</p>
+          <p class="text-[10px] text-gray-600 mt-1">Flows • usage metrics • market structure</p>
+        </div>
+
+        <div class="card rounded-2xl p-6">
+          <p class="text-3xl sm:text-4xl font-black text-purple-400">Social</p>
+          <p class="text-xs text-gray-400 mt-2">Campaign Execution</p>
+          <p class="text-[10px] text-gray-600 mt-1">Distribution • narratives • education</p>
+        </div>
+      </div>
+
+      <a href="#about" class="inline-block mt-12 text-gray-500 hover:text-white transition animate-bounce" aria-label="Scroll to About">
+        <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- ABOUT -->
+    <section id="about" class="py-24 fade-in">
+      <div class="mb-10">
+        <p class="text-sm font-medium text-cyan-400 tracking-widest uppercase mb-3">01 / About</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Research-first. Signal over noise.</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          SYSTOOM LLC is dedicated to the study of decentralized finance (DeFi) protocols.
+          We produce structured analysis and translate technical findings into social media narratives, educational content,
+          and data-driven campaign execution.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">What we analyze</h3>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li>• Smart contract mechanics and incentives</li>
+            <li>• Tokenomics and emission schedules</li>
+            <li>• Liquidity design and market structure</li>
+            <li>• Governance frameworks and risks</li>
+          </ul>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">How we work</h3>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li>• Repeatable research frameworks</li>
+            <li>• On-chain data collection and synthesis</li>
+            <li>• Clear assumptions and explicit limitations</li>
+            <li>• Campaign content based on findings</li>
+          </ul>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">What you get</h3>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li>• Protocol reports and summaries</li>
+            <li>• Social-ready narratives and threads</li>
+            <li>• Campaign playbooks and content packs</li>
+            <li>• Ongoing updates as conditions change</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="py-24 fade-in">
+      <div class="mb-12">
+        <p class="text-sm font-medium text-indigo-400 tracking-widest uppercase mb-3">02 / Research</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Protocol research & on-chain intelligence</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          Our research focuses on protocol design, real usage patterns, and measurable risk. The goal is clarity: what a protocol does,
+          why it works, and where it can break.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-4">Core research areas</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">AMMs & Liquidity</p>
+              <p class="text-sm text-gray-400 mt-1">Pool dynamics, fee models, and liquidity incentives.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">Lending Markets</p>
+              <p class="text-sm text-gray-400 mt-1">Collateral factors, liquidations, and market health.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">Derivatives</p>
+              <p class="text-sm text-gray-400 mt-1">Perps design, funding rates, and risk controls.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">Restaking & Yield</p>
+              <p class="text-sm text-gray-400 mt-1">Yield sources, sustainability, and systemic exposure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-4">Risk & diligence</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            DeFi carries technical, economic, and governance risk. Our work emphasizes model transparency and clear communication:
+            assumptions, dependencies, and failure modes.
+          </p>
+
+          <div class="mt-6 space-y-3 text-sm text-gray-400">
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>Smart contract review checkpoints (design-level)</span>
+            </div>
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>Token incentives analysis (reflexivity and dilution)</span>
+            </div>
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>On-chain activity signals vs. hype metrics</span>
+            </div>
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>Governance and upgradeability exposure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAMPAIGNS -->
+    <section id="campaigns" class="py-24 fade-in">
+      <div class="mb-12">
+        <p class="text-sm font-medium text-purple-400 tracking-widest uppercase mb-3">03 / Campaigns</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Research-backed social campaigns</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          We run campaigns that translate protocol research into clear messaging. The output is designed for credibility: substance first, distribution second.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Educational content</h3>
+          <p class="text-gray-400 text-sm">
+            Threads, posts, and explainers aimed at understanding protocol mechanics and market structure.
+          </p>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Narrative design</h3>
+          <p class="text-gray-400 text-sm">
+            Messaging frameworks that remain consistent with research, on-chain realities, and verifiable claims.
+          </p>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Campaign execution</h3>
+          <p class="text-gray-400 text-sm">
+            Structured distribution plans with content packs, sequencing, and optimization loops.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-6 card rounded-2xl p-6 sm:p-8">
+        <h3 class="text-lg font-semibold text-white mb-3">Output examples</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Research thread</p>
+            <p class="text-xs text-gray-400 mt-1">Summary of findings with clear caveats.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Content pack</p>
+            <p class="text-xs text-gray-400 mt-1">Reusable posts, hooks, and visuals outline.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Campaign playbook</p>
+            <p class="text-xs text-gray-400 mt-1">Distribution plan and posting cadence.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Update notes</p>
+            <p class="text-xs text-gray-400 mt-1">When on-chain conditions materially change.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-24 fade-in">
+      <div class="mb-10">
+        <p class="text-sm font-medium text-gray-500 tracking-widest uppercase mb-3">04 / Contact</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Company information</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          For collaboration, research inquiries, or campaign engagements, contact us via email.
+        </p>
+      </div>
+
+      <div class="card rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div>
+            <p class="text-sm text-gray-500 mb-2">Entity</p>
+            <p class="text-lg font-semibold text-white">SYSTOOM LLC</p>
+
+            <p class="text-sm text-gray-500 mt-6 mb-2">Address</p>
+            <p class="text-gray-300">
+              5830 E 2nd St Ste 7000<br />
+              Casper, WY 82609<br />
+              United States
+            </p>
+          </div>
+
+          <div>
+            <p class="text-sm text-gray-500 mb-2">Contact email</p>
+            <a href="mailto:info@syst-oom.com" class="inline-block text-cyan-400 hover:text-cyan-300 font-medium text-lg">
+              info@syst-oom.com
+            </a>
+
+            <p class="text-xs text-gray-500 mt-4">
+              We typically reply within standard business hours (Mountain Time).
+            </p>
+
+            <div class="mt-6 p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="text-sm text-gray-300">
+                Note: SYSTOOM LLC provides research and informational content. Nothing on this site constitutes financial, legal, or investment advice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/5 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-gray-500 text-sm">
+        © 2026 <span class="text-cyan-400 font-bold">SYSTOOM LLC</span> — DeFi Research & Social Intelligence
+      </p>
+      <p class="text-gray-600 text-xs mt-2">
+        5830 E 2nd St Ste 7000, Casper, WY 82609, United States
+      </p>
+      <p class="mt-3">
+        <a href="mailto:info@syst-oom.com" class="text-cyan-400 hover:text-cyan-300 text-sm font-medium">
+          info@syst-oom.com
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
